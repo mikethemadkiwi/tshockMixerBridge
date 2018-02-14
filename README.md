@@ -6,7 +6,7 @@ My javascript education was 25 years ago.. bitch even once about mixed code... a
   
 ?????? WORK IN PROGRESS... NOT COMPLETE.... OPTIMISE < FUNCTION ??????  
   
-<b>TShock Setup</b> - <a href="">link here</a>  
+<b>TShock Setup</b> - <a href="https://tshock.readme.io/docs/getting-started" target="_blank">Download Here</a>  
 Create User in tshock for api calls using the following command in chat.  
 <i>"user add Mixer supersecretpassword123 superadmin"</i>  
   
@@ -21,7 +21,7 @@ to this:
   "RestApiEnabled": true,  
   "RestApiPort": 7878,  
   
-<b>NodeJS Setup</b> - <a href="">link here</a>  
+<b>NodeJS Setup</b> - <a href="https://nodejs.org/en/download/">Download Here</a>  
 (install on the same machine as the tshock instance)
 download and copy this Bridge software into the tshock install folder.  
 enter bridge software install folder
