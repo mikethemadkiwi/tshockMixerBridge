@@ -10,8 +10,7 @@ TShock Setup - link here
 Create User in tshock for api calls using the following command in chat.  
 "user add Mixer supersecretpassword123 superadmin"  
   
-Locate "tshock.config" in the tshock folder (after running it at least once first! files will create!) 
-  
+Locate "config.json" in the tshock folder (after running it at least once first! files will create!)   
 edit the line allowing api from this:  
   
   "RestApiEnabled": false,  
