@@ -8,7 +8,7 @@ My javascript education was 25 years ago.. bitch even once about mixed code... a
   
 <b>TShock Setup</b> - <a href="">link here</a>  
 Create User in tshock for api calls using the following command in chat.  
-"user add Mixer supersecretpassword123 superadmin"  
+<i>"user add Mixer supersecretpassword123 superadmin"</i>  
   
 Locate "config.json" in the tshock folder (after running it at least once first! files will create!)   
 edit the line allowing api from this:  
@@ -21,20 +21,19 @@ to this:
   "RestApiEnabled": true,  
   "RestApiPort": 7878,  
   
-NodeJS Setup  
-install NODEJS on same machine as the tshock instance - Link Here  
+<b>NodeJS Setup</b> - <a href="">link here</a>  
+(install on the same machine as the tshock instance)
 download and copy this Bridge software into the tshock install folder.  
 enter bridge software install folder
-edit the config.js to reflect your own details
+edit the <b>config.js</b> and edit it to reflect your own details
 run in a console using :  
 
 Node index.js
-
-{} - denotes your own details provided.  
-oauth MUST allow for interactive permissions.  
   
 (how can i alter the buttons?)  
-go into mixer's interactive studio.. build your own.  
+go into mixer's interactive studio.. build your own.  these buttons are a basic example of this you can do.  
+for the most part ANY command that can be run on a user remotely, can be run this way.  
+  
 include the "meta" control "Command" (I tried to mimic the way mixer Minecraft works here. props to them.)
 in the value of the meta, include the command endpoint you wish to access.  
 example: /v3/server/rawcmd?cmd=/annoy%20user%2010 ( will annoy "user" for 10 seconds )
