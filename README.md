@@ -34,6 +34,8 @@ include the "meta" control "Command" (I tried to mimic the way mixer Minecraft w
 in the value of the meta, include the command endpoint you wish to access.  
 example: /v3/server/rawcmd?cmd=/annoy%20kiwi%2010 ( will annoy me for 10 seconds )
 
-the buttons are currently imported via the code, i have not currently implimented mixer's own scenes. this code just creates them based on the template. this WILL be changing. current target of all abuse is the user name of the tshock login.
+the buttons are currently imported via the code, i have not currently implimented mixer's own scenes. this code just creates them based on the template. this WILL be changing. 
+
+current target of all abuse is the user name of the tshock login.
   
 Have at it folks, kinda simpole really eh?  
