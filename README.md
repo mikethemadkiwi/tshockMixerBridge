@@ -6,7 +6,7 @@ My javascript education was 25 years ago.. bitch even once about mixed code... a
   
 ?????? WORK IN PROGRESS... NOT COMPLETE.... OPTIMISE < FUNCTION ??????  
   
-TShock Setup - link here  
+<b>TShock Setup</b> - <a href="">link here</a>  
 Create User in tshock for api calls using the following command in chat.  
 "user add Mixer supersecretpassword123 superadmin"  
   
