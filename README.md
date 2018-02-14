@@ -7,15 +7,20 @@ My javascript education was 25 years ago.. bitch even once about mixed code... a
 ?????? WORK IN PROGRESS... NOT COMPLETE.... OPTIMISE < FUNCTION ??????  
   
 TShock Setup - link here  
-Create User in tshock ( MUST BE IN GAME!! ) for api calls using the following command in chat.  
+Create User in tshock for api calls using the following command in chat.  
 "user add Mixer supersecretpassword123 superadmin"  
   
-Locate "tshock.config" in the tshock folder (after running it at least once first! files will create!)  
+Locate "tshock.config" in the tshock folder (after running it at least once first! files will create!) 
+  
 edit the line allowing api from this:  
+  
+  "RestApiEnabled": false,  
+  "RestApiPort": 7878,  
   
 to this:  
   
-  
+  "RestApiEnabled": true,  
+  "RestApiPort": 7878,  
   
 NodeJS Setup  
 install NODEJS on same machine as the tshock instance - Link Here  
