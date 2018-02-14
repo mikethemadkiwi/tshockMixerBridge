@@ -20,11 +20,12 @@ to this:
 NodeJS Setup  
 install NODEJS on same machine as the tshock instance - Link Here  
 download and copy this Bridge software into the tshock install folder.  
-enter tshock install folder  
+enter bridge software install folder
+edit the config.js to reflect your own details
 run in a console using :  
-  
-Node index.js {TshockUser} {TshockPassword} {MixerInteractiveOauth}  
-  
+
+Node index.js
+
 {} - denotes your own details provided.  
 oauth MUST allow for interactive permissions.  
   
@@ -32,7 +33,7 @@ oauth MUST allow for interactive permissions.
 go into mixer's interactive studio.. build your own.  
 include the "meta" control "Command" (I tried to mimic the way mixer Minecraft works here. props to them.)
 in the value of the meta, include the command endpoint you wish to access.  
-example: /v3/server/rawcmd?cmd=/annoy%20kiwi%2010 ( will annoy me for 10 seconds )
+example: /v3/server/rawcmd?cmd=/annoy%20user%2010 ( will annoy "user" for 10 seconds )
 
 the buttons are currently imported via the code, i have not currently implimented mixer's own scenes. this code just creates them based on the template. this WILL be changing. 
 
