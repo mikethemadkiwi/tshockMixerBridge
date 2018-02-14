@@ -34,7 +34,7 @@ Node index.js
 go into mixer's interactive studio.. build your own.  these buttons are a basic example of this you can do.  
 for the most part ANY command that can be run on a user remotely, can be run this way.  
   
-include the "meta" control "Command" (I tried to mimic the way mixer Minecraft works here. props to them.)
+include the "meta" control "Command" (I tried to mimic the way mixer Minecraft works here. props to them.)  
 in the value of the meta, include the command endpoint you wish to access.  
 example: /v3/server/rawcmd?cmd=/annoy%20user%2010 ( will annoy "user" for 10 seconds )
 
