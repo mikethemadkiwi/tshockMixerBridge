@@ -21,9 +21,10 @@ to this:
   "RestApiEnabled": true,  
   "RestApiPort": 7878,  
   
-<b>NodeJS Setup</b> - <a href="https://nodejs.org/en/download/">Download Here</a>  
-(install on the same machine as the tshock instance)
-download and copy this Bridge software into the tshock install folder.  
+<b>NodeJS Setup</b> - <a href="https://nodejs.org/en/download/" target="_blank">Download Here</a>  
+(install on the same machine as the tshock instance)  
+
+<a href="https://github.com/mikethemadkiwi/tshockMixerBridge/archive/master.zip" target="_blank">Download</a> and copy this Bridge software into the tshock install folder.  
 enter bridge software install folder
 edit the <b>config.js</b> and edit it to reflect your own details
 run in a console using :  
@@ -31,7 +32,8 @@ run in a console using :
 Node index.js
   
 (how can i alter the buttons?)  
-go into mixer's interactive studio.. build your own.  these buttons are a basic example of this you can do.  
+go into mixer's interactive studio. <a href="https://mixer.com/lab/interactive" target="_blank">Dev Lab</a>  
+build your own.  these buttons are a basic example of this you can do.  
 for the most part ANY command that can be run on a user remotely, can be run this way.  
   
 include the "meta" control "Command" (I tried to mimic the way mixer Minecraft works here. props to them.)  
